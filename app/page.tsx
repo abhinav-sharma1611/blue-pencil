@@ -5,19 +5,15 @@ import FeatureSection from "@/components/FeatureSection"
 import HeroSection from "@/components/HeroSection";
 import Featured from "@/components/Featured";
 
-import Feature1 from "../public/feature1.png"
-import Feature2 from "../public/feature2.png"
-import Feature3 from "../public/feature3.png"
-
 export default function Home() {
   return (
     <>
       <Navbar />
       <HeroSection />
       <Featured />
-      <FeatureSection button={false} image={Feature1.src} />
-      <FeatureSection button={false} image={Feature2.src} />
-      <FeatureSection button={true} image={Feature3.src} />
+      <FeatureSection button={false} image='/feature1.png' />
+      <FeatureSection button={false} image='/feature2.png' />
+      <FeatureSection button={true} image='/feature3.png' />
       <Pricing />
       <Footer />
     </>
