@@ -7,9 +7,8 @@ import HeroImage from "../public/designer_1 (2).png";
 function HeroSection() {
     return (
         <div className="relative flex items-center justify-start text-left sm:h-[400px] h-auto w-full">
-            {/* Image visible only on screen sizes larger than 900px */}
             <img
-                className="hidden md:block" // Hide on screens smaller than md (900px)
+                className="hidden md:block" 
                 src={HeroImage.src}
                 alt="Your Image"
                 style={{
