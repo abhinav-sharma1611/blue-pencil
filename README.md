@@ -15,7 +15,7 @@ A responsive landing page built with **Next.js**, **Chakra UI**, and **TailwindC
 - **TailwindCSS**: A utility-first CSS framework for rapid UI development.
 
 ## Demo
-
+https://blue-pencil-landing.netlify.app/
 
 ---
 
