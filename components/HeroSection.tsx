@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
-
-import HeroImage from "../public/designer_1 (2).png"
+import HeroImage from "../public/designer_1 (2).png";
 
 function HeroSection() {
     return (
         <div className="relative flex items-center justify-start text-left sm:h-[400px] h-auto w-full">
+            {/* Image visible only on screen sizes larger than 900px */}
             <img
+                className="hidden md:block" // Hide on screens smaller than md (900px)
                 src={HeroImage.src}
                 alt="Your Image"
                 style={{
@@ -20,15 +21,15 @@ function HeroSection() {
                     height: "auto",
                 }}
             />
-            <div className="bg-white bg-opacity-70  sm:p-10 ml-10 mt-20 max-w-lg sm:max-w-none p-10">
+            <div className="bg-white bg-opacity-70 sm:p-10 ml-10 mt-20 max-w-lg sm:max-w-none p-10">
                 <h1 style={{ fontSize: "50px", fontWeight: 500, color: "#091133" }}>
-                    Introduce Your Product <br></br> Quickly & Effectively
+                    Introduce Your Product <br /> Quickly & Effectively
                 </h1>
                 <p style={{ fontSize: "18px", fontWeight: 400, color: "#505F98" }}>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean  <br></br>commodo
-                    ligula eget dolor. Aenean massa. Cum sociis natoque  <br></br> penatibus et magnis
-                    dis parturient montes, nascetur ridiculus  <br></br> mus. Donec quam felis, ultricies
-                    nec, pellentesque eu, pretium quis,<br></br> sem. Nulla consequat massa quis enim.
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br /> commodo
+                    ligula eget dolor. Aenean massa. Cum sociis natoque <br /> penatibus et magnis
+                    dis parturient montes, nascetur ridiculus <br /> mus. Donec quam felis, ultricies
+                    nec, pellentesque eu, pretium quis,<br /> sem. Nulla consequat massa quis enim.
                 </p>
 
                 <div className="flex space-x-4 mt-10">
@@ -66,7 +67,7 @@ function HeroSection() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default HeroSection
+export default HeroSection;
