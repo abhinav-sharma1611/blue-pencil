@@ -13,7 +13,7 @@ import { buttonVariants } from "@/components/ui/button";
 
 export default function SplitWithImage(props: any) {
     return (
-        <Container maxW={'5xl'} mt={20} p={20}>
+        <Container maxW={'5xl'} mt={10} p={20}>
             <SimpleGrid columns={{ base: 1, md: 2 }} spacing={20}>
                 <Flex>
                     <Image
