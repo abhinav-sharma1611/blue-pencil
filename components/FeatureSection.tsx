@@ -10,7 +10,6 @@ import {
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 
-
 export default function SplitWithImage(props: any) {
     return (
         <Container maxW={'5xl'} mt={10} p={20}>
