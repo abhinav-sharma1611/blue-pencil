@@ -90,7 +90,7 @@ export default function Footer() {
                         </a>
                         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                             <Image
-                                src='/instagram.png'
+                                src='/Instagram.png'
                                 alt="Instagram"
                                 width={16}
                                 height={16}
