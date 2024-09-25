@@ -7,6 +7,7 @@ import HeroImage from "../public/designer_1 (2).png";
 function HeroSection() {
     return (
         <div className="relative flex items-center justify-start text-left sm:h-[400px] h-auto w-full">
+           
             <img
                 className="hidden md:block" 
                 src={HeroImage.src}
@@ -20,7 +21,7 @@ function HeroSection() {
                     height: "auto",
                 }}
             />
-            <div className="bg-white bg-opacity-70 sm:p-10 ml-10 mt-20 max-w-lg sm:max-w-none p-10">
+            <div className="bg-white bg-opacity-70 sm:p-10 md:ml-10 md:mt-20 max-w-lg sm:max-w-none p-10">
                 <h1 style={{ fontSize: "50px", fontWeight: 500, color: "#091133" }}>
                     Introduce Your Product <br /> Quickly & Effectively
                 </h1>
